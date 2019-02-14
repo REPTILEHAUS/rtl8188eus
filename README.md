@@ -48,7 +48,8 @@ unmanaged-devices=mac:A7:A7:A7:A7:A7
 
 # TODO
 * Fix the out of bounds reference
-* Supress some debug messages (dmesg) about powersaving
+* Finish up the elimination of the wrapper _rtw_memset.
+  I didn't have more time after "rtw_beamforming.c"
 * There is a bug in monitor mode related to Network-Manager.
   This needs priority because it causes interferrence.
 * Add HT (RX) Greenfield capabilities
